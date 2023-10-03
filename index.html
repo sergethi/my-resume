@@ -11,15 +11,18 @@
             padding: 0;
             overflow: hidden;
         }
-        iframe {
+        object {
             border: none;
             width: 100vw;
             height: 100vh;
+            display: block;
         }
     </style>
 </head>
 <body>
     <!-- Replace 'YOUR_PDF_LINK_HERE' with your actual PDF link -->
-    <iframe src="https://github.com/sergethi/my-resume/blob/main/Serge%20SWE%202023%20Updated%20Resume.pdf"></iframe>
+    <object data="https://github.com/sergethi/my-resume/blob/main/Serge%20SWE%202023%20Updated%20Resume.pdf" type="application/pdf">
+        <p>This browser does not support inline PDFs. Please download the PDF to view it: <a href="https://github.com/sergethi/my-resume/blob/main/Serge%20SWE%202023%20Updated%20Resume.pdf">Download PDF</a></p>
+    </object>
 </body>
 </html>
